@@ -17,7 +17,6 @@ class ViewController: UIViewController {
         super.viewDidLoad()
 
         webView.translatesAutoresizingMaskIntoConstraints = false
-        print("add subview")
         webViewContainer.addSubview(webView)
 
         NSLayoutConstraint.activate([
